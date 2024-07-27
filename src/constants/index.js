@@ -19,7 +19,7 @@ export const EXPERIENCES = [
     year: "2023 - Present",
     role: "Research Assistant",
     company: "Springfield College, Dr. Jeremy Castagno",
-    description: ` Creating a front-end system for computer vision research on physics experiments using React with TypeScript and Zustand. Building a responsive dashboard website to conduct experiments, record, store and visualize the data.  Designed the final prototype in Figma after numerous iterations and team meetings, and coding the frontend at the moment`,
+    description: ` Creating a front-end system for computer vision research on physics experiments using React with TypeScript and Zustand. Building a responsive dashboard website to conduct experiments, record, store and visualize the data.  Designed the final prototype in Figma after numerous iterations and team meetings, and coding the frontend at the moment.`,
     technologies: ["React", "Node.js", "Express.js", "Mangodb", "AWS", "Sentry.io"]
   },
   ,
@@ -33,7 +33,7 @@ export const EXPERIENCES = [
     year: "2022 - 2024",
     role: "Full Stack Developer",
     company: "Good Shepherd Anglican School",
-    description: `Built and integrated RESTful APIs using Node.js and Express with a React frontend. Utilized MongoDB for database management and Redux for state management. Designed and implemented responsive interfaces with React and styled-components, focusing on usability for students, teachers, and administrators. Managed deployment and maintenance, with real-time monitoring using Sentry and automated deployments via GitHub Actions.`,
+    description: `Built and integrated RESTful APIs for the school's wesbite using Node.js and Express with a React frontend. Utilized MongoDB for database management and Redux for state management. Designed and implemented responsive interfaces with React and styled-components, focusing on usability for students, teachers, and administrators. Managed deployment and maintenance, with real-time monitoring using Sentry and automated deployments via GitHub Actions.`,
     technologies: ["React", "Node.js", "Express.js", "Mangodb", "AWS", "Sentry.io"]
   }
 ];
@@ -44,7 +44,7 @@ export const PROJECTS = [
     title: "Good Shepherd Anglican School Website",
     image: GOOD_SHEPHERD_ANGLICAN_SCHOOL,
     description:
-      "Developed a comprehensive school website featuring event management, announcement posting, and user authentication. Improved communication between faculty, students, and parents, resulting in a 40% increase in engagement and access to resources.",
+      "Developed a comprehensive school website featuring event management, announcement posting, and user authentication. Improved communication between faculty, students, and parents, resulting in a 90% increase in engagement and access to resources.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
   {
@@ -59,7 +59,7 @@ export const PROJECTS = [
     image: OS_BANK,
     description:
       "Banking app with a finance management dashboard that connects multiple bank accounts, displays real-time transactions, and allows you to transfer money to other users on the platform using Next.js 14.",
-    technologies: ["HTML", "CSS", "React", "Next.js", "Tailwind CSS", "Chart.js", "Node.js", "MongoDB", "Socket.io", "Stripe"],
+    technologies: ["HTML", "React", "Next.js","Tailwind CSS", "Chart.js", "Node.js", "MongoDB", "Socket.io", "Stripe"],
   },
   {
     title: "FootballVision",

@@ -5,8 +5,8 @@ import { motion } from "framer-motion";
 
 const About = () => {
     return (
-        <div className="pd-4">
-            <h1 className="my-20 text-center text-4xl bg-gradient-to-r from-blue-100 via-slate-500 to-blue-500 bg-clip-text tracking-tight text-transparent">About Me</h1>
+        <div className="pd-4" id="about">
+            <h1 className="my-20 text-center text-4xl bg-gradient-to-r from-blue-100 via-slate-500 to-blue-500 bg-clip-text tracking-tight text-transparent cursor-pointer">About Me</h1>
             <div className="flex flex-wrap">
                 <div className="w-full lg:w-1/2 lg:p-8">
                     <motion.div

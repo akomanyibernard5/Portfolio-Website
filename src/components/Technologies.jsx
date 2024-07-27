@@ -22,12 +22,12 @@ const iconVariants = (duration) => ({
 
 const Technologies = () => {
     return (
-        <div className="pb-24">
+        <div className="pb-24" id="technologies" >
             <motion.h1
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 1.5 }}
-                className="my-20 text-center text-4xl bg-gradient-to-r from-blue-100 via-slate-500 to-blue-500 bg-clip-text tracking-tight text-transparent">Technologies</motion.h1>
+                className="my-20 text-center text-4xl cursor-pointer bg-gradient-to-r from-blue-100 via-slate-500 to-blue-500 bg-clip-text tracking-tight text-transparent">Technologies</motion.h1>
             <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -100 }}
@@ -38,39 +38,39 @@ const Technologies = () => {
                     initial="initial"
                     animate="animate"
                     className='rounded-md border-4 border-neutral-800 p-4 hover:scale-105 transition-transform duration-300'>
-                    <RiReactjsLine className="text-7xl text-cyan-400" aria-label="React" />
+                    <RiReactjsLine className="text-7xl text-cyan-400  cursor-pointer" aria-label="React" />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(3)}
                     initial="initial"
                     animate="animate"
                     className='rounded-md border-4 border-neutral-800 p-4 hover:scale-105 transition-transform duration-300'>
-                    <TbBrandNextjs className="text-7xl" aria-label="Next.js" />
+                    <TbBrandNextjs className="text-7xl  cursor-pointer" aria-label="Next.js" />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(4)}
                     initial="initial"
                     animate="animate"
                     className='rounded-md border-4 border-neutral-800 p-4 hover:scale-105 transition-transform duration-300'>
-                    <SiMongodb className="text-7xl text-green-500" aria-label="MongoDB" />
+                    <SiMongodb className="text-7xl text-green-500  cursor-pointer" aria-label="MongoDB" />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(5)}
                     initial="initial"
                     animate="animate" className='rounded-md border-4 border-neutral-800 p-4 hover:scale-105 transition-transform duration-300'>
-                    <DiRedis className="text-7xl text-red-700" aria-label="Redis" />
+                    <DiRedis className="text-7xl text-red-700  cursor-pointer" aria-label="Redis" />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(6)}
                     initial="initial"
                     animate="animate" className='rounded-md border-4 border-neutral-800 p-4 hover:scale-105 transition-transform duration-300'>
-                    <FaNodeJs className="text-7xl text-green-500" aria-label="Node.js" />
+                    <FaNodeJs className="text-7xl text-green-500  cursor-pointer" aria-label="Node.js" />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(7)}
                     initial="initial"
                     animate="animate" className='rounded-md border-4 border-neutral-800 p-4 hover:scale-105 transition-transform duration-300'>
-                    <BiLogoPostgresql className="text-7xl text-sky-700" aria-label="PostgreSQL" />
+                    <BiLogoPostgresql className="text-7xl text-sky-700  cursor-pointer" aria-label="PostgreSQL" />
                 </motion.div>
             </motion.div>
         </div>

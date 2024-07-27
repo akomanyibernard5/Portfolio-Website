@@ -23,14 +23,14 @@ const About = () => {
                             variants={container(0)}
                             initial="hidden"
                             animate="visible"
-                            className="pb-5 font-thin lg:mt-16 lg:text-5xl my-20 text-center text-4xl bg-gradient-to-r from-blue-100 via-slate-500 to-blue-500 bg-clip-text tracking-tight text-transparent"
+                            className="pb-5 font-thin  cursor-pointer lg:mt-16 lg:text-5xl my-20 text-center text-4xl bg-gradient-to-r from-blue-100 via-slate-500 to-blue-500 bg-clip-text tracking-tight text-transparent"
                         >
                             Bernard Akomanyi
                         </motion.h1>
                         <motion.span variants={container(0.5)}
                             initial="hidden"
                             animate="visible"
-                            className="bg-gradient-to-r from-blue-100 via-slate-500 to-blue-500 bg-clip-text text-4xl tracking-tight text-transparent">
+                            className="bg-gradient-to-r  cursor-pointer from-blue-100 via-slate-500 to-blue-500 bg-clip-text text-4xl tracking-tight text-transparent">
                             Full Stack Developer
                         </motion.span>
                         <motion.p variants={container(1)}
