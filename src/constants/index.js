@@ -17,7 +17,7 @@ export const EXPERIENCES = [
   {
     year: "2023 - 2024",
     role: "Software Engineering Volunteer",
-    company: "CKODON",
+    company: "Kehillah Global",
     description: `Developed Create-Read-Update-Delete tools for the platform’s API, which enhanced data management efficiency. Implemented error logging with Sentry.io and configured alerts via Slack, reducing error response time by 30%. Contributed a Python script for auto-generating essential API files, streamlining development processes. Built continuous integration pipelines with GitHub Actions, ensuring a 95% pass rate for pull request tests.`,
     technologies: ["Python", "Django", "Sentry.io"]
   },
